@@ -7,7 +7,8 @@ function mapStateToProps(state){
 	return{
 		access_token : state.reverse.access_token,
 		agents : state.reverse.agents,
-		chat : state.reverse.chat
+		chat : state.reverse.chat,
+		authError : state.reverse.authError
 	}
 }
 

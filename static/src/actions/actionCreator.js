@@ -11,21 +11,23 @@ function agentApi(id){
 	return axios.get('http://35.154.183.147:5010/api/v1/botsessions?filter=%7B%22where%22%3A%7B%22agentId%22%3A%2258cfeadbbb18880c820e8c72%22%7D%2C%22limit%22%3A500%2C%22order%22%3A%22id%20DESC%22%7D&access_token='+id+'&access_token='+id)
 }
 
-function addAgentsToStore(arr){
+function addAgentsToStore(arr,token){
 	return {
 		type : "ADD_SESSION",
-		arr
+		arr,
+		token
 	}
 }
 
 export function getAgent(token){
+	if(token === 0){
+		token = localStorage.getItem('token');
+	}
 	return function(dispatch) {
 		return agentApi(token)
 		.then(response =>{
 			try{
-				console.log(response)
 				response = response["data"].slice(0,30);
-				console.log(response.toString())
 				var arr=[];
 				var date = 0;
 				var time;
@@ -40,7 +42,7 @@ export function getAgent(token){
 					})
 
 				}
-				dispatch(addAgentsToStore(arr))
+				dispatch(addAgentsToStore(arr,token))
 			}
 			catch(e){
 				console.log(e)
@@ -52,37 +54,42 @@ export function getAgent(token){
 	}
 }
 
-function getAccess(){
+function getAccess(username,password){
 	return axios.post('http://35.154.183.147:5010/api/v1/adminusers/login',{
-		"username": "interview",
-		"password": "candidate@29072017"
+		"username": username,
+		"password": password
 	})
 }
 
 function addToken(id){
+	localStorage.setItem('token',id);
 	return {
 		type : "ADD_TOKEN",
 		id
 	}
 }
 
-export function getAccessToken(){
+function errorHandling(){
+	return {
+		type : "ERROR_HANDLE"
+	}
+}
+
+export function getAccessToken(username,password){
 	return function(dispatch){
-		return getAccess()
+		return getAccess(username,password)
 		.then(response =>{
 			try{
-				console.log(response)
-				console.log(response["data"].id)
-				
 				dispatch(addToken(response["data"].id))
-			}
+				setTimeout(window.location.reload(),2000);
+		}
 			catch(e){
-				console.log(e)
+				alert("Error on the server side, please try again later")
 			}
 		})
 		.catch(error => {
-			console.log("SDFSD")
-			console.log(error)
+			alert("Please check the Username and password enteried!")
+			dispatch(errorHandling())
 		})
 	}
 }
@@ -106,7 +113,6 @@ export function getChat(id,token){
 		.then(response =>{
 			try{
 				var data =[];
-			console.log(response)
 			var userdate,botdate;
 			var usertime,bottime;
 			for(var i=1;i<response["data"].length;i=i+2){
@@ -135,4 +141,3 @@ export function getChat(id,token){
 		})
 	}
 }
-

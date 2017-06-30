@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "70ba7312fb5e8be17d8b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "af4953d5e6196d0a4cd2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -7208,7 +7208,7 @@ exports = module.exports = __webpack_require__(206)();
 
 
 // module
-exports.push([module.i, ".border {\n  border-right: 1px solid #c0c0c0;\n  height: 100vh;\n  padding: 0 !important;\n  margin: 0 !important;\n}\n.heading1 {\n  background-color: #2c475c;\n  padding: 10px 0 10px 15px;\n  color: #fff;\n}\n.bottomBorder {\n  border: 1px solid #c0c0c0;\n}\n.heading2 {\n  background-color: #2c475c;\n  padding: 10px 0 10px 15px;\n  color: #fff;\n}\n.heading3 {\n  background-color: #2c475c;\n  padding: 10px 0 12px 15px;\n  color: #fff;\n}\n.hfont {\n  font-size: 130%;\n}\n.agentRows:hover {\n  cursor: pointer;\n}\n.user {\n  float: right;\n  border: 1px solid #c0c0c0;\n  background-color: #0080ff;\n  color: #fff;\n  padding: 5px 6px 5px 6px;\n  display: block;\n  border-radius: 0.5em 0 0.5em 0.5em;\n  margin: 0 !important;\n}\n.bot {\n  float: left;\n  background-color: #c0c0c0;\n  color: #000;\n  display: block;\n  padding: 5px 6px 5px 6px;\n  border-radius: 0 0.5em 0.5em 0.5em;\n  margin: 0 !important;\n}\n.userDiv {\n  margin-bottom: 2px;\n}\n.chatDiv {\n  overflow-x: hidden;\n  overflow-y: hidden;\n}\n.chat,\n.sessionDiv {\n  height: 84vh;\n  overflow-y: auto;\n  overflow-x: hidden;\n}\n.chat {\n  margin-top: 5px;\n}\n.sessionDiv {\n  height: 84vh;\n}\n.usertime {\n  float: right;\n}\n.bottime {\n  float: left;\n}\n.time {\n  padding-left: 8%;\n}\n.agentDiv {\n  padding-left: 0 !important;\n  padding-right: 0 !important;\n  margin: 0 !important;\n  border: 1px solid #c0c0c0;\n  padding-top: 8px;\n}\n.agentDiv:hover {\n  cursor: pointer;\n}\n.agentDivHeading,\n.agentRowshead,\n.timehead {\n  padding-top: 5px;\n  padding-bottom: 4px;\n  margin: 0 !important;\n}\n.buttonclass {\n  padding-top: 10px;\n  padding-bottom: 10px;\n  font-size: 15px;\n  color: #fff;\n  background-color: #0080ff;\n}\n.buttonclass:hover {\n  cursor: pointer;\n}\n.rightChevron,\n.downChevron {\n  float: right;\n  color: #c0c0c0;\n}\n.style-2::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);\n  border-radius: 10px;\n  background-color: #f5f5f5;\n}\n.style-2::-webkit-scrollbar {\n  width: 10px;\n  background-color: #f5f5f5;\n}\n.style-2::-webkit-scrollbar-thumb {\n  border-radius: 10px;\n  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);\n  background-color: #c0c0c0;\n}\n@media screen and (min-width: 1300px) {\n  .usertime {\n    margin-right: -3%;\n  }\n}\n", ""]);
+exports.push([module.i, "* {\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n}\nbody {\n  overflow-x: hidden;\n}\n.border {\n  border-right: 1px solid #c0c0c0;\n  height: 100vh;\n  padding: 0 !important;\n  margin: 0 !important;\n}\n.heading1 {\n  background-color: #2c475c;\n  padding: 10px 0 10px 15px;\n  color: #fff;\n  height: 50px;\n}\n.bottomBorder {\n  border: 1px solid #c0c0c0;\n}\n.heading2,\n.heading3,\n.buttonclass {\n  background-color: #524b70;\n  padding: 10px 0 10px 25px;\n  color: #fff;\n  height: 40px;\n}\n.subcat {\n  background-color: #5d567b;\n}\n.buttonclass {\n  margin-bottom: 0px;\n}\n.hfont {\n  font-size: 16px;\n}\n.agentRows {\n  padding-right: 0 !important;\n}\n.user {\n  float: right;\n  border: 1px solid #c0c0c0;\n  background-color: #967adc;\n  color: #fff;\n  padding: 5px 6px 5px 6px;\n  display: block;\n  border-radius: 0.5em 0 0.5em 0.5em;\n  margin: 0 !important;\n}\n.bot {\n  float: left;\n  background-color: #f5f7fa;\n  color: #000;\n  display: block;\n  padding: 5px 6px 5px 6px;\n  border-radius: 0 0.5em 0.5em 0.5em;\n  margin: 0 !important;\n}\n.userDiv {\n  margin-bottom: 2px;\n}\n.chatDiv {\n  overflow-x: hidden;\n  overflow-y: hidden;\n}\n.chat,\n.sessionDiv {\n  overflow-y: auto;\n  overflow-x: hidden;\n}\n.chat {\n  margin-top: 5px;\n  height: 80%;\n}\n.sessionDiv {\n  height: 77%;\n}\n.usertime {\n  float: right;\n}\n.bottime {\n  float: left;\n}\n.time {\n  padding-left: 30px;\n}\n.agentDiv {\n  padding-left: 0 !important;\n  padding-right: 0 !important;\n  margin: 0 !important;\n  border-bottom: 1px solid #c0c0c0;\n  padding-top: 8px;\n}\n.agentDiv:hover {\n  cursor: pointer;\n}\n.agentDivHeading,\n.agentRowshead,\n.timehead {\n  padding-top: 5px;\n  padding-bottom: 4px;\n  margin: 0 !important;\n  background-color: #f5f7fa;\n  padding-left: 20px;\n}\n.agentRowshead {\n  padding-left: 0;\n}\n.buttonclass:hover {\n  cursor: pointer;\n}\n.rightChevron,\n.downChevron {\n  float: right;\n  color: #c0c0c0;\n}\n.style-2::-webkit-scrollbar-track {\n  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);\n  border-radius: 10px;\n  background-color: #f5f5f5;\n}\n.style-2::-webkit-scrollbar {\n  width: 10px;\n  background-color: #f5f5f5;\n}\n.style-2::-webkit-scrollbar-thumb {\n  border-radius: 10px;\n  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);\n  background-color: #c0c0c0;\n}\n.jumbotron {\n  margin-top: 100px;\n}\n.loginh {\n  padding-bottom: 10px;\n}\n.loginContainer {\n  background-color: #3f3861;\n  height: 100vh;\n}\n.img-responsive {\n  min-width: 500px;\n}\n.animated {\n  background-image: url(\"http://res.cloudinary.com/dfimz9dwy/image/upload/v1498807936/brand-logo_ttkxeb.svg\");\n  background-repeat: no-repeat;\n  background-position: center;\n  padding-top: 95px;\n  margin-top: 200px;\n  -webkit-animation-duration: 10s;\n  animation-duration: 10s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n}\n@-webkit-keyframes bounceInLeft {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateX(-2000px);\n  }\n  60% {\n    opacity: 1;\n    -webkit-transform: translateX(30px);\n  }\n  80% {\n    -webkit-transform: translateX(-10px);\n  }\n  100% {\n    -webkit-transform: translateX(0);\n  }\n}\n.bounceInLeft {\n  -webkit-animation-name: bounceInLeft;\n  animation-name: bounceInLeft;\n}\n.brandLogo {\n  height: 40px;\n  margin-bottom: 10px;\n  margin-left: 18%;\n  display: inline;\n}\n.ham {\n  width: 50px;\n  font-size: 25px;\n  color: #fff;\n  padding: 23px 30px 23px 30px;\n}\n.ham:hover {\n  cursor: pointer;\n}\n.firstRow {\n  background-color: #3f3861;\n  padding: 0 !important;\n}\n.tDiv {\n  height: 100vh;\n  background: #fff;\n  display: none;\n  padding: 0 !important;\n  border-right: 1px solid #c0c0c0;\n}\n@-moz-keyframes bounceInLeft {\n  0% {\n    opacity: 0;\n    transform: translateX(-2000px);\n  }\n  60% {\n    opacity: 1;\n    transform: translateX(30px);\n  }\n  80% {\n    transform: translateX(-10px);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n@-webkit-keyframes bounceInLeft {\n  0% {\n    opacity: 0;\n    transform: translateX(-2000px);\n  }\n  60% {\n    opacity: 1;\n    transform: translateX(30px);\n  }\n  80% {\n    transform: translateX(-10px);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n@-o-keyframes bounceInLeft {\n  0% {\n    opacity: 0;\n    transform: translateX(-2000px);\n  }\n  60% {\n    opacity: 1;\n    transform: translateX(30px);\n  }\n  80% {\n    transform: translateX(-10px);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n@keyframes bounceInLeft {\n  0% {\n    opacity: 0;\n    transform: translateX(-2000px);\n  }\n  60% {\n    opacity: 1;\n    transform: translateX(30px);\n  }\n  80% {\n    transform: translateX(-10px);\n  }\n  100% {\n    transform: translateX(0);\n  }\n}\n", ""]);
 
 // exports
 
@@ -11201,20 +11201,22 @@ function agentApi(id) {
 	return _axios2.default.get('http://35.154.183.147:5010/api/v1/botsessions?filter=%7B%22where%22%3A%7B%22agentId%22%3A%2258cfeadbbb18880c820e8c72%22%7D%2C%22limit%22%3A500%2C%22order%22%3A%22id%20DESC%22%7D&access_token=' + id + '&access_token=' + id);
 }
 
-function addAgentsToStore(arr) {
+function addAgentsToStore(arr, token) {
 	return {
 		type: "ADD_SESSION",
-		arr: arr
+		arr: arr,
+		token: token
 	};
 }
 
 function getAgent(token) {
+	if (token === 0) {
+		token = localStorage.getItem('token');
+	}
 	return function (dispatch) {
 		return agentApi(token).then(function (response) {
 			try {
-				console.log(response);
 				response = response["data"].slice(0, 30);
-				console.log(response.toString());
 				var arr = [];
 				var date = 0;
 				var time;
@@ -11228,7 +11230,7 @@ function getAgent(token) {
 						"createdOn": date.getDate() + '-' + date.getMonth() + '-' + date.getFullYear() + ' ' + time[4]
 					});
 				}
-				dispatch(addAgentsToStore(arr));
+				dispatch(addAgentsToStore(arr, token));
 			} catch (e) {
 				console.log(e);
 			}
@@ -11238,34 +11240,39 @@ function getAgent(token) {
 	};
 }
 
-function getAccess() {
+function getAccess(username, password) {
 	return _axios2.default.post('http://35.154.183.147:5010/api/v1/adminusers/login', {
-		"username": "interview",
-		"password": "candidate@29072017"
+		"username": username,
+		"password": password
 	});
 }
 
 function addToken(id) {
+	localStorage.setItem('token', id);
 	return {
 		type: "ADD_TOKEN",
 		id: id
 	};
 }
 
-function getAccessToken() {
-	return function (dispatch) {
-		return getAccess().then(function (response) {
-			try {
-				console.log(response);
-				console.log(response["data"].id);
+function errorHandling() {
+	return {
+		type: "ERROR_HANDLE"
+	};
+}
 
+function getAccessToken(username, password) {
+	return function (dispatch) {
+		return getAccess(username, password).then(function (response) {
+			try {
 				dispatch(addToken(response["data"].id));
+				setTimeout(window.location.reload(), 2000);
 			} catch (e) {
-				console.log(e);
+				alert("Error on the server side, please try again later");
 			}
 		}).catch(function (error) {
-			console.log("SDFSD");
-			console.log(error);
+			alert("Please check the Username and password enteried!");
+			dispatch(errorHandling());
 		});
 	};
 }
@@ -11286,7 +11293,6 @@ function getChat(id, token) {
 		return chatWithBot(id, token).then(function (response) {
 			try {
 				var data = [];
-				console.log(response);
 				var userdate, botdate;
 				var usertime, bottime;
 				for (var i = 1; i < response["data"].length; i = i + 2) {
@@ -18773,9 +18779,13 @@ var _App = __webpack_require__(199);
 
 var _App2 = _interopRequireDefault(_App);
 
-var _ChatRoomView = __webpack_require__(200);
+var _Login = __webpack_require__(201);
 
-var _ChatRoomView2 = _interopRequireDefault(_ChatRoomView);
+var _Login2 = _interopRequireDefault(_Login);
+
+var _ContainerView = __webpack_require__(200);
+
+var _ContainerView2 = _interopRequireDefault(_ContainerView);
 
 var _reactRouter = __webpack_require__(121);
 
@@ -18792,7 +18802,8 @@ var router = _react2.default.createElement(
 		_react2.default.createElement(
 			_reactRouter.Route,
 			{ path: "/", component: _App2.default },
-			_react2.default.createElement(_reactRouter.IndexRoute, { component: _ChatRoomView2.default })
+			_react2.default.createElement(_reactRouter.IndexRoute, { component: _Login2.default }),
+			_react2.default.createElement(_reactRouter.Route, { path: '/main', component: _ContainerView2.default })
 		)
 	)
 );
@@ -18836,7 +18847,8 @@ function mapStateToProps(state) {
 	return {
 		access_token: state.reverse.access_token,
 		agents: state.reverse.agents,
-		chat: state.reverse.chat
+		chat: state.reverse.chat,
+		authError: state.reverse.authError
 	};
 }
 
@@ -18850,89 +18862,6 @@ exports.default = App;
 
 /***/ }),
 /* 200 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-
-var _redboxReact2 = __webpack_require__(104);
-
-var _redboxReact3 = _interopRequireDefault(_redboxReact2);
-
-var _reactTransformCatchErrors3 = __webpack_require__(76);
-
-var _reactTransformCatchErrors4 = _interopRequireDefault(_reactTransformCatchErrors3);
-
-var _react2 = __webpack_require__(4);
-
-var _react3 = _interopRequireDefault(_react2);
-
-var _reactTransformHmr3 = __webpack_require__(77);
-
-var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
-
-var _ContainerView = __webpack_require__(201);
-
-var _ContainerView2 = _interopRequireDefault(_ContainerView);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _components = {
-	_component: {}
-};
-
-var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
-	filename: '/home/vatsalya/Documents/enterprise/static/src/components/ChatRoomView.js',
-	components: _components,
-	locals: [module],
-	imports: [_react3.default]
-});
-
-var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
-	filename: '/home/vatsalya/Documents/enterprise/static/src/components/ChatRoomView.js',
-	components: _components,
-	locals: [],
-	imports: [_react3.default, _redboxReact3.default]
-});
-
-function _wrapComponent(id) {
-	return function (Component) {
-		return _reactTransformHmr2(_reactTransformCatchErrors2(Component, id), id);
-	};
-}
-
-var ChatRoomView = _wrapComponent('_component')(_react3.default.createClass({
-	displayName: 'ChatRoomView',
-	componentDidMount: function componentDidMount() {
-		this.props.getAccessToken();
-	},
-	render: function render() {
-		var _props = this.props,
-		    textToReverse = _props.textToReverse,
-		    getAgent = _props.getAgent,
-		    access_token = _props.access_token,
-		    agents = _props.agents,
-		    getChat = _props.getChat,
-		    chat = _props.chat;
-
-		return _react3.default.createElement(
-			'div',
-			{ className: 'container-fluid' },
-			_react3.default.createElement(_ContainerView2.default, { getAgent: getAgent, access_token: access_token, agents: agents,
-				getChat: getChat, chat: chat })
-		);
-	}
-}));
-
-exports.default = ChatRoomView;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(33)(module)))
-
-/***/ }),
-/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18986,10 +18915,21 @@ function _wrapComponent(id) {
 
 var ContainerView = _wrapComponent("_component")(_react3.default.createClass({
 	displayName: "ContainerView",
+
+
+	// componentDidMount(){
+	// 	window.onload = function () {
+	// 				console.log("VATSALYA")
+	//    if (!localStorage.justOnce) {
+	//        localStorage.setItem("justOnce", "true");
+	//        window.location.reload();
+	//    		}
+	// 	}
+	// },
+
 	renderSessions: function renderSessions() {
 		var _this = this;
 
-		console.log("HELP ******************");
 		return this.props.agents.map(function (item) {
 			return _react3.default.createElement(
 				"div",
@@ -18998,12 +18938,12 @@ var ContainerView = _wrapComponent("_component")(_react3.default.createClass({
 					} },
 				_react3.default.createElement(
 					"p",
-					{ className: "col-lg-5 agentRows" },
+					{ className: "col-md-7 col-lg-7 agentRows" },
 					item.agentId
 				),
 				_react3.default.createElement(
 					"p",
-					{ className: "col-lg-7 time" },
+					{ className: "col-lg-5 col-md-5 time" },
 					item.createdOn,
 					_react3.default.createElement("span", { className: "rightChevron glyphicon glyphicon-chevron-right" })
 				)
@@ -19026,9 +18966,13 @@ var ContainerView = _wrapComponent("_component")(_react3.default.createClass({
 					)
 				),
 				_react3.default.createElement(
-					"p",
-					{ className: "usertime col-lg-3 col-lg-offset-9 col-md-4 col-md-offset-8 col-sm-5 col-sm-offset-7 col-xs-6 col-xs-offset-6" },
-					item.userTime
+					"div",
+					{ className: "col-lg-3 col-lg-offset-9 col-md-4 col-md-offset-8" },
+					_react3.default.createElement(
+						"p",
+						{ className: "usertime" },
+						item.userTime
+					)
 				),
 				_react3.default.createElement(
 					"div",
@@ -19052,32 +18996,33 @@ var ContainerView = _wrapComponent("_component")(_react3.default.createClass({
 
 		return _react3.default.createElement(
 			"div",
-			{ className: "row" },
+			null,
 			_react3.default.createElement(
 				"div",
-				{ className: "col-md-2 col-lg-2 col-sm-2 col-xs-2 border" },
-				_react3.default.createElement(
-					"div",
-					{ className: "heading1" },
-					_react3.default.createElement("span", { className: "glyphicon glyphicon-globe" }),
-					_react3.default.createElement(
-						"span",
-						{ className: "hfont" },
-						" Enterprise Bot"
-					)
-				),
-				_react3.default.createElement("div", { className: "bottomBorder" }),
+				{ className: "col-md-12 col-lg-12 firstRow" },
+				_react3.default.createElement("span", { className: "glyphicon glyphicon-menu-hamburger ham" }),
+				_react3.default.createElement("img", { src: "http://res.cloudinary.com/dfimz9dwy/image/upload/v1498807936/brand-logo_ttkxeb.svg", className: "img-responsive brandLogo" })
+			),
+			_react3.default.createElement(
+				"div",
+				{ className: "tDiv", id: "tDiv" },
 				_react3.default.createElement(
 					"p",
-					{ className: "col-md-12 col-lg-12 col-sm-12 col-xs-12 buttonclass", onClick: function onClick() {
+					{ className: "col-md-12 col-lg-12 buttonclass" },
+					"Categories"
+				),
+				_react3.default.createElement(
+					"p",
+					{ className: "col-md-12 col-lg-12 buttonclass subcat", onClick: function onClick() {
 							return _this2.props.getAgent(_this2.props.access_token);
 						} },
-					"Training"
+					"Chat List ",
+					_react3.default.createElement("span", { className: "rightChevron glyphicon glyphicon-chevron-right" })
 				)
 			),
 			_react3.default.createElement(
 				"div",
-				{ className: "col-md-4 col-lg-4 col-sm-4 col-xs-4 border" },
+				{ className: "col-md-5 col-lg-5 training border" },
 				_react3.default.createElement(
 					"div",
 					{ className: "heading2" },
@@ -19093,16 +19038,15 @@ var ContainerView = _wrapComponent("_component")(_react3.default.createClass({
 					{ className: "row agentDivHeading" },
 					_react3.default.createElement(
 						"p",
-						{ className: "col-lg-5 col-md-5 col-sm-5 col-xs-5 agentRowshead" },
+						{ className: "col-lg-7 col-md-7 agentRowshead" },
 						"Session"
 					),
 					_react3.default.createElement(
 						"p",
-						{ className: "col-lg-7 col-md-7 col-sm-7 col-xs-7 timehead" },
-						"Time"
+						{ className: "col-lg-5 col-md-5 timehead" },
+						"Created time"
 					)
 				),
-				_react3.default.createElement("div", { className: "bottomBorder" }),
 				_react3.default.createElement(
 					"div",
 					{ className: "sessionDiv style-2" },
@@ -19111,7 +19055,7 @@ var ContainerView = _wrapComponent("_component")(_react3.default.createClass({
 			),
 			_react3.default.createElement(
 				"div",
-				{ className: "col-md-6 col-lg-6 col-sm-6 col-xs-6 border" },
+				{ className: "col-md-7 col-lg-7 chatSession border" },
 				_react3.default.createElement(
 					"div",
 					{ className: "heading3" },
@@ -19126,7 +19070,6 @@ var ContainerView = _wrapComponent("_component")(_react3.default.createClass({
 						)
 					)
 				),
-				_react3.default.createElement("div", { className: "bottomBorder" }),
 				_react3.default.createElement(
 					"div",
 					{ className: "chat style-2" },
@@ -19138,6 +19081,123 @@ var ContainerView = _wrapComponent("_component")(_react3.default.createClass({
 }));
 
 exports.default = ContainerView;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(33)(module)))
+
+/***/ }),
+/* 201 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _redboxReact2 = __webpack_require__(104);
+
+var _redboxReact3 = _interopRequireDefault(_redboxReact2);
+
+var _reactTransformCatchErrors3 = __webpack_require__(76);
+
+var _reactTransformCatchErrors4 = _interopRequireDefault(_reactTransformCatchErrors3);
+
+var _react2 = __webpack_require__(4);
+
+var _react3 = _interopRequireDefault(_react2);
+
+var _reactTransformHmr3 = __webpack_require__(77);
+
+var _reactTransformHmr4 = _interopRequireDefault(_reactTransformHmr3);
+
+var _reactRouter = __webpack_require__(121);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _components = {
+	_component: {}
+};
+
+var _reactTransformHmr2 = (0, _reactTransformHmr4.default)({
+	filename: '/home/vatsalya/Documents/enterprise/static/src/components/Login.js',
+	components: _components,
+	locals: [module],
+	imports: [_react3.default]
+});
+
+var _reactTransformCatchErrors2 = (0, _reactTransformCatchErrors4.default)({
+	filename: '/home/vatsalya/Documents/enterprise/static/src/components/Login.js',
+	components: _components,
+	locals: [],
+	imports: [_react3.default, _redboxReact3.default]
+});
+
+function _wrapComponent(id) {
+	return function (Component) {
+		return _reactTransformHmr2(_reactTransformCatchErrors2(Component, id), id);
+	};
+}
+
+var Login = _wrapComponent('_component')(_react3.default.createClass({
+	displayName: 'Login',
+	render: function render() {
+		var _this = this;
+
+		return _react3.default.createElement(
+			'div',
+			{ className: 'container-fluid loginContainer' },
+			_react3.default.createElement(
+				'div',
+				{ className: 'row' },
+				_react3.default.createElement(
+					'div',
+					{ className: 'col-lg-7 col-md-7' },
+					_react3.default.createElement('div', { className: 'animated bounceInLeft' })
+				),
+				_react3.default.createElement(
+					'div',
+					{ className: 'col-md-5 col-lg-5 jumbotron' },
+					_react3.default.createElement(
+						'h3',
+						{ className: 'loginh' },
+						'Login'
+					),
+					_react3.default.createElement(
+						'div',
+						{ className: 'form-group' },
+						_react3.default.createElement(
+							'label',
+							{ htmlFor: 'usr' },
+							'Name:'
+						),
+						_react3.default.createElement('input', { type: 'text', className: 'form-control', id: 'usr', ref: 'username' })
+					),
+					_react3.default.createElement(
+						'div',
+						{ className: 'form-group' },
+						_react3.default.createElement(
+							'label',
+							{ htmlFor: 'pwd' },
+							'Password:'
+						),
+						_react3.default.createElement('input', { type: 'password', className: 'form-control', id: 'pwd', ref: 'password' })
+					),
+					_react3.default.createElement(
+						'button',
+						{ type: 'submit', className: 'btn btn-primary btn-lg',
+							onClick: function onClick() {
+								return _this.props.getAccessToken(_this.refs.username.value, _this.refs.password.value);
+							} },
+						'Submit'
+					)
+				),
+				this.props.authError === "yes" ? _reactRouter.browserHistory.push("/main") : ""
+			)
+		);
+	}
+}));
+
+exports.default = Login;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(33)(module)))
 
 /***/ }),
@@ -19263,13 +19323,16 @@ function reverseReducer() {
 
 	switch (action.type) {
 		case "ADD_TOKEN":
-			return Object.assign({}, state, { access_token: action.id });
+			return Object.assign({}, state, { access_token: action.id, authError: "yes" });
 
 		case "ADD_SESSION":
-			return Object.assign({}, state, { agents: action.arr });
+			return Object.assign({}, state, { agents: action.arr, access_token: action.token });
 
 		case "ADD_CHAT":
 			return Object.assign({}, state, { chat: action.data });
+
+		case "ERROR_HANDLE":
+			return Object.assign({}, state, { authError: "no" });
 
 		default:
 			return state;
@@ -19313,12 +19376,9 @@ var defaultState = {
 	reverse: {
 		access_token: 0,
 		agents: [],
-		chat: []
-	},
-
-	quotes: {},
-
-	palindrome: {}
+		chat: [],
+		authError: false
+	}
 
 };
 // import listOfEvents from './data/listOfEvents';

@@ -6,7 +6,8 @@ import {Provider} from 'react-redux';
 import css from './styles/style.styl';
 
 import App from './components/App';
-import ChatRoomView from './components/ChatRoomView';
+import Login from './components/Login';
+import ContainerView from './components/ContainerView';
 import {Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 
@@ -14,7 +15,8 @@ const router = (
 	<Provider store={store}>
 	<Router history={browserHistory}>
 	<Route path={"/"} component={App}>
-	<IndexRoute component={ChatRoomView}></IndexRoute>
+	<IndexRoute component={Login}></IndexRoute>
+	<Route path="/main" component={ContainerView}></Route>
 	</Route>
 	</Router>
 	</Provider>

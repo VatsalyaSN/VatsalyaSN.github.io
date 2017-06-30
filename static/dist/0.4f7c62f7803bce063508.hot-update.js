@@ -1,0 +1,12 @@
+webpackHotUpdate(0,{
+
+/***/ 200:
+/***/ (function(module, exports) {
+
+"use strict";
+throw new Error("Module build failed: SyntaxError: Expected corresponding JSX closing tag for <span> (39:206)\n\n\u001b[0m \u001b[90m 37 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 38 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"tDiv\"\u001b[39m id\u001b[33m=\u001b[39m\u001b[32m\"tDiv\"\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33mp\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"col-md-12 col-lg-12 col-sm-12 col-xs-12 buttonclass\"\u001b[39m onClick\u001b[33m=\u001b[39m{()\u001b[33m=>\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprops\u001b[33m.\u001b[39mgetAgent(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprops\u001b[33m.\u001b[39maccess_token)}\u001b[33m>\u001b[39m\u001b[33mChat\u001b[39m \u001b[33mList\u001b[39m \u001b[33m<\u001b[39m\u001b[33mspan\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"rightChevron glyphicon glyphicon-chevron-right\"\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m\t\t\t\t                                                                                                                                                                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 40 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 41 | \u001b[39m\t\t\t\n \u001b[90m 42 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"col-md-5 col-lg-5 col-sm-5 col-xs-5 training border\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n");
+
+/***/ })
+
+})
+//# sourceMappingURL=0.4f7c62f7803bce063508.hot-update.js.map

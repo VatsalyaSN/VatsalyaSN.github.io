@@ -1,0 +1,12 @@
+webpackHotUpdate(0,{
+
+/***/ 200:
+/***/ (function(module, exports) {
+
+"use strict";
+throw new Error("Module build failed: SyntaxError: Adjacent JSX elements must be wrapped in an enclosing tag (39:4)\n\n\u001b[0m \u001b[90m 37 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33mimg\u001b[39m src\u001b[33m=\u001b[39m\u001b[32m\"http://res.cloudinary.com/dfimz9dwy/image/upload/v1498807936/brand-logo_ttkxeb.svg\"\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"img-responsive brandLogo\"\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 38 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"tDiv\"\u001b[39m id\u001b[33m=\u001b[39m\u001b[32m\"tDiv\"\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m\t\t\t\t\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 40 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33mp\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"col-md-12 col-lg-12 col-sm-12 col-xs-12 buttonclass\"\u001b[39m\u001b[33m>\u001b[39m\u001b[33mCategories\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 41 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33mp\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"col-md-12 col-lg-12 col-sm-12 col-xs-12 buttonclass subcat\"\u001b[39m onClick\u001b[33m=\u001b[39m{()\u001b[33m=>\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprops\u001b[33m.\u001b[39mgetAgent(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprops\u001b[33m.\u001b[39maccess_token)}\u001b[33m>\u001b[39m\u001b[33mChat\u001b[39m \u001b[33mList\u001b[39m \u001b[33m<\u001b[39m\u001b[33mspan\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"rightChevron glyphicon glyphicon-chevron-right\"\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mspan\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 42 | \u001b[39m\t\t\t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n");
+
+/***/ })
+
+})
+//# sourceMappingURL=0.6cedc88e1aa784d2632a.hot-update.js.map

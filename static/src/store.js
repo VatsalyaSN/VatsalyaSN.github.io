@@ -12,15 +12,8 @@ const defaultState={
 	reverse : {
 		access_token : 0,
 		agents : [],
-		chat :[]
-	},
-
-	quotes : {
-
-	},
-
-	palindrome : {
-
+		chat :[],
+		authError : false
 	}
 
 }

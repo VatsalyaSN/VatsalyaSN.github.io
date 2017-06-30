@@ -1,12 +1,22 @@
 import React from 'react';
 
 const ContainerView = React.createClass({
+
+	// componentDidMount(){
+	// 	window.onload = function () {
+	// 				console.log("VATSALYA")
+ //    if (!localStorage.justOnce) {
+ //        localStorage.setItem("justOnce", "true");
+ //        window.location.reload();
+ //    		}
+	// 	}
+	// },
+
 	renderSessions(){
-		console.log("HELP ******************")
 		return this.props.agents.map( item =>{
 			return <div className="row agentDiv" onClick={()=>this.props.getChat(item.agentId,this.props.access_token)}>
-			<p className="col-lg-5 agentRows" >{item.agentId}</p>
-			<p className="col-lg-7 time">{item.createdOn}<span className="rightChevron glyphicon glyphicon-chevron-right"></span></p>
+			<p className="col-md-7 col-lg-7 agentRows" >{item.agentId}</p>
+			<p className="col-lg-5 col-md-5 time">{item.createdOn}<span className="rightChevron glyphicon glyphicon-chevron-right"></span></p>
 			
 			</div>
 		})
@@ -18,7 +28,9 @@ const ContainerView = React.createClass({
 			<div className="userDiv col-lg-10 col-lg-offset-2">
 			<p className="user"> {item.user}</p>
 			</div>
-			<p className="usertime col-lg-3 col-lg-offset-9 col-md-4 col-md-offset-8 col-sm-5 col-sm-offset-7 col-xs-6 col-xs-offset-6">{item.userTime}</p>
+			<div className="col-lg-3 col-lg-offset-9 col-md-4 col-md-offset-8">
+			<p className="usertime">{item.userTime}</p>
+			</div>
 			<div className="botDiv col-lg-10">
 			<p className="bot">{item.bot}</p>
 			</div>
@@ -29,37 +41,37 @@ const ContainerView = React.createClass({
 
 	render(){
 		return(
-			<div className="row">
-				<div className="col-md-2 col-lg-2 col-sm-2 col-xs-2 border">
-				<div className="heading1">
-				<span className="glyphicon glyphicon-globe"></span><span className="hfont"> Enterprise Bot</span>
+			<div>
+				<div className="col-md-12 col-lg-12 firstRow">
+					<span className="glyphicon glyphicon-menu-hamburger ham"></span>
+					<img src="http://res.cloudinary.com/dfimz9dwy/image/upload/v1498807936/brand-logo_ttkxeb.svg" className="img-responsive brandLogo" />
 				</div>
-				<div className="bottomBorder"></div>
-				<p className="col-md-12 col-lg-12 col-sm-12 col-xs-12 buttonclass" onClick={()=> this.props.getAgent(this.props.access_token)}>Training</p>
+				<div className="tDiv" id="tDiv">
+					<p className="col-md-12 col-lg-12 buttonclass">Categories</p>
+					<p className="col-md-12 col-lg-12 buttonclass subcat" onClick={()=> this.props.getAgent(this.props.access_token)}>Chat List <span className="rightChevron glyphicon glyphicon-chevron-right"></span></p>
 				</div>
+			
+				<div className="col-md-5 col-lg-5 training border">
+					<div className="heading2">
 
-				<div className="col-md-4 col-lg-4 col-sm-4 col-xs-4 border">
-				<div className="heading2">
-				<span className="glyphicon glyphicon-th-list"></span><span className="hfont"> Training</span>
-				</div>
-				<div className="row agentDivHeading">
-				<p className="col-lg-5 col-md-5 col-sm-5 col-xs-5 agentRowshead">Session</p>
-				<p className="col-lg-7 col-md-7 col-sm-7 col-xs-7 timehead">Time</p>
-				</div>
-				<div className="bottomBorder"></div>
-				<div className="sessionDiv style-2">
-				{this.renderSessions()}
-				</div>
+						<span className="glyphicon glyphicon-th-list"></span><span className="hfont"> Training</span>
+					</div>
+					<div className="row agentDivHeading">
+						<p className="col-lg-7 col-md-7 agentRowshead">Session</p>
+						<p className="col-lg-5 col-md-5 timehead">Created time</p>
+					</div>
+					<div className="sessionDiv style-2">
+						{this.renderSessions()}
+					</div>
 				</div>
  
-				<div className="col-md-6 col-lg-6 col-sm-6 col-xs-6 border">
-				<div className="heading3">
-				<span className="glyphicon glyphicon-comment"> <span className="hfont">ChatSession</span></span>
-				</div>
-				<div className="bottomBorder"></div>
-				<div className="chat style-2">
-				{this.renderChat()}
-				</div>
+				<div className="col-md-7 col-lg-7 chatSession border">
+					<div className="heading3">
+					<span className="glyphicon glyphicon-comment"> <span className="hfont">ChatSession</span></span>
+					</div>
+					<div className="chat style-2">
+					{this.renderChat()}
+					</div>
 				</div>
 			</div>
 			)
